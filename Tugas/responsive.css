@@ -1,0 +1,38 @@
+/* Tablet */
+@media (max-width:1000px){
+    .footer-list .list-section{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .footer-info {
+        gap: 24px;
+    }
+
+    .footer-info .social-media,
+    .footer-info .info-link,
+    .footer-info .copyright  {
+        flex: 0 0 auto;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width:670px){
+
+    .footer-list{
+        gap: 16px;
+    }
+
+    .footer-list .list-section{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .footer-info .info-link{
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+}
